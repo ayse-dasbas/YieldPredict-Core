@@ -1,0 +1,18 @@
+@baseUrl = https://localhost:5001
+
+### Predict ADR
+POST {{baseUrl}}/api/HotelBooking/predict
+Content-Type: application/json
+
+{
+  "hotel": "Resort Hotel",
+  "isCanceled": false,
+  "leadTime": 7,
+  "arrivalDateMonth": "July",
+  "adults": 2,
+  "children": 0,
+  "meal": "BB",
+  "marketSegment": "Online TA",
+  "reservedRoomType": "A"
+}
+
