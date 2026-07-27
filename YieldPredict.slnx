@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="YieldPredict.API/YieldPredict.API.csproj" />
+  <Project Path="YieldPredict.ModelTrainer/YieldPredict.ModelTrainer.csproj" />
+</Solution>
